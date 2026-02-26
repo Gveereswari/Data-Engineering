@@ -96,4 +96,5 @@ SELECT TRUNC(MONTHS_BETWEEN(SYSDATE, DATE '2003-07-31')/12) AS AGE FROM DUAL;
 --19.Check if date is weekend.
 
 --20.Find next Monday after a given date.
+
 SELECT NEXT_DAY(SYSDATE, 'MONDAY') AS NEXT_MONDAY FROM DUAL;
